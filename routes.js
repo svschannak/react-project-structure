@@ -10,7 +10,7 @@ export default class BaseRoutes extends Component{
                 {settings.INSTALLED_APPS.map((app, idx) => {
                     return (
                         <Route key={idx}>
-                            {app.Routes}
+                            {app.ModuleRoutes}
                         </Route>
                     )
                 })}
